@@ -93,10 +93,7 @@ public class NestedApp {
 		public void list() {
 			// 배열에 저장되어있는 값을 출력
 			for (int i = 0; i < friends.length; i++) {
-				if (friends[i] != null && friends[i].getName().equals(i)) {
-					break;
-				}
-
+				System.out.println(friends[i].toString());
 			}
 
 		}
@@ -106,11 +103,10 @@ public class NestedApp {
 	public static void main(String[] args) {
 		FriendApp app = new FriendApp();
 
+		while (true) {
 			app.add();
 //		app.modify();
 			app.list();
-
 		}
 	}
-
 }
