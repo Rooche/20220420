@@ -29,7 +29,15 @@ public class BoardApp implements BoardService {
 
 	@Override
 	public void modBoard() {
-
+		System.out.println("내용을 수정합니다");
+		
+		for (int i = 0; i < board.size(); i++) {
+			if (board.get(i).getName().equals()) {
+				break;
+			}
+		}
+		
+		
 	}
 
 	@Override
