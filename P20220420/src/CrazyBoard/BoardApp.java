@@ -29,10 +29,11 @@ public class BoardApp implements BoardService {
 
 	@Override
 	public void modBoard() {
-		System.out.println("내용을 수정합니다");
-		
+		System.out.println("게시글번호를 입력해주세요.");
+		int number = sc.nextInt();
+		sc.nextLine();
 		for (int i = 0; i < board.size(); i++) {
-			if (board.get(i).getName().equals()) {
+			if (board.get(i).se
 				break;
 			}
 		}
