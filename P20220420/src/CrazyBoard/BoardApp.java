@@ -27,19 +27,18 @@ public class BoardApp implements BoardService {
 		board.add(new Board(number, title, content, name, date));
 	}
 
-	@Override
-	public void modBoard() {
-		System.out.println("게시글번호를 입력해주세요.");
-		int number = sc.nextInt();
-		sc.nextLine();
-		for (int i = 0; i < board.size(); i++) {
-			if (board.get(i).se
-				break;
-			}
-		}
+//	@Override
+//	public void modBoard() {
+//		System.out.println("게시글번호를 입력해주세요.");
+//		int number = sc.nextInt();
+//		sc.nextLine();
+//		for (int i = 0; i < board.size(); i++) {
+//			if (board.get(i).se
+//				break;
+//			}
+//		}
 		
 		
-	}
 
 	@Override
 	public void delBoard() {
@@ -58,6 +57,12 @@ public class BoardApp implements BoardService {
 	//		break;
 		}
 
+	}
+
+	@Override
+	public void modBoard() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
